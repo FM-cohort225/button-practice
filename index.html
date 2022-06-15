@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        html,body{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+label {
+    text-align: center;
+    color: rgb(107, 93, 93);
+    font-size: small;
+}
+.boxes{
+    width: 70%;
+align-self: center;
+background-color: rgb(217, 251, 240);
+
+}
+h1 {
+    align-self: center;
+    font-family: "Arial", Helvetica;
+    font-size: 100%;
+
+}
+
+.card   {
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 12px;
+    border-color: rgba(146, 143, 143, 0.3);
+    
+    min-width: 25%;
+    min-height: 30%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 6px 6px 23px -6px rgba(0,0,0,0.49);
+    -moz-box-shadow: 6px 6px 23px -6px rgba(0,0,0,0.49);
+    box-shadow: 6px 6px 23px -6px rgba(0,0,0,0.49);
+}
+.button {
+background-color: rgba(90, 141, 185, 0.49);
+height: 30px;
+width: 60px;
+align-self: center;
+
+
+}
+    </style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Sign in</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            
+            <H1>Sign in</H1>
+            <label>Username</label>
+            <input type="text" placeholder="username" class="boxes"/>
+            <br/>
+            <label>Password</label>
+            <input type="password" placeholder="password" class="boxes"/>
+            <br/>
+           <button class="button">Sign in</button> 
+           
+        </div>
+    </div>
+</body>
+</html>
